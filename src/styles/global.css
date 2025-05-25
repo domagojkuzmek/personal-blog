@@ -1,1 +1,10 @@
 @import "tailwindcss";
+@import "./typography.theme.css";
+@import "./colors.theme.css";
+@import "./spacing.theme.css";
+@import "./radius.theme.css";
+
+
+:root {
+    font-size: 16px;
+}

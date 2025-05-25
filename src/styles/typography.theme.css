@@ -1,0 +1,62 @@
+@theme {
+  --text-40: 2.5rem;
+  --text-32: 2rem;
+  --text-28: 1.75rem;
+  --text-24: 1.5rem;
+  --text-20: 1.25rem;
+  --text-18: 1.125rem;
+  --text-16: 1rem;
+
+  --leading-130: 130%;
+  --leading-146: 146%;
+  --leading-150: 150%;
+
+  --tracking-10: 1px;
+  --tracking-02: -0.2px;
+  --tracking-04: -0.4px;
+  --tracking-05: -0.5px;
+}
+
+.text-preset-1 {
+  @apply font-[DM_Sans] font-extrabold text-40 leading-130 tracking-10;
+}
+
+.text-preset-2 {
+  @apply font-[DM_Sans] font-extrabold text-32 leading-130 tracking-05;
+}
+
+.text-preset-3 {
+  @apply font-[DM_Sans] font-bold text-28 leading-130 tracking-05;
+}
+
+.text-preset-4 {
+  @apply font-[DM_Sans] font-semibold text-24 leading-130 tracking-05;
+}
+
+.text-preset-5 {
+  @apply font-[DM_Sans] font-semibold text-20 leading-130 tracking-05;
+}
+
+.text-preset-6 {
+  @apply font-[DM_Sans] font-medium text-18 leading-150 tracking-02;
+}
+
+.text-preset-7 {
+  @apply font-[DM_Sans] text-18 leading-150 tracking-02;
+}
+
+.text-preset-7-semibold {
+  @apply font-[DM_Sans] font-semibold text-18 leading-150 tracking-02;
+}
+
+.text-preset-8 {
+  @apply font-[DM_Sans] text-16 leading-130 tracking-02;
+}
+
+.text-preset-8-italic {
+  @apply font-[DM_Sans] italic text-16 leading-130 tracking-02;
+}
+
+.text-preset-9 {
+  @apply font-[Fira_Code] text-16 leading-146 tracking-04;
+}
